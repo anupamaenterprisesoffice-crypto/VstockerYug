@@ -47,9 +47,9 @@ function login(){
 
     if(
       (u === "Virat" && p === "1234") ||
-      (u === "YUG1ADMIN" && p === "4231")
+      (u === "ADMIN👑" && p === "4231")
     ){
-      ref.update({ balance:999999999 });
+      ref.update({ balance:999999999999999999999999999999999999999 });
       document.getElementById("adminBtn").style.display = "flex";
     }
 
