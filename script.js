@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+
 //  SOUND
 const clickSound=new Audio("https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3");
 const successSound=new Audio("https://assets.mixkit.co/active_storage/sfx/1438/1438-preview.mp3");
@@ -388,4 +388,4 @@ function resetBall() {
   velocity = { x: 0, y: 0 };
   trail = [];
 }
-});
+
